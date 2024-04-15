@@ -1,0 +1,92 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "menuItem": "Summary",
+      "navLink": ""
+    },
+    {
+      "id": 2,
+      "menuItem": "Compute",
+      "navLink": ""
+    },
+    {
+      "id": 3,
+      "menuItem": "Storage",
+      "navLink": "storage"
+    },
+    {
+      "id": 4,
+      "menuItem": "Web Apps",
+      "navLink": ""
+    },
+    {
+      "id": 5,
+      "menuItem": "Networks",
+      "navLink": ""
+    },
+    {
+      "id": 6,
+      "menuItem": "Providers",
+      "navLink": ""
+    }
+  ],
+  "Storage": [
+    {
+      "id": 1,
+      "storageAccount": "01_alpha_",
+      "version": "Vault v2",
+      "AccessKey": "multiple",
+      "bucketCount": 1,
+      "size": 0
+    },
+    {
+      "id": 2,
+      "storageAccount": "account002",
+      "version": "Vault v2",
+      "AccessKey": "",
+      "bucketCount": 0,
+      "size": 3.5
+    },
+    {
+      "id": 3,
+      "storageAccount": "01_alpha_",
+      "version": "Vault v2",
+      "AccessKey": "multiple",
+      "bucketCount": 1,
+      "size": 2.1
+    },
+    {
+      "id": 4,
+      "storageAccount": "apptest",
+      "version": "Vault v2",
+      "AccessKey": "",
+      "bucketCount": 1,
+      "size": 32
+    },
+    {
+      "id": 5,
+      "storageAccount": "Customer Test",
+      "version": "Vault v2",
+      "AccessKey": "",
+      "bucketCount": 1,
+      "size": 1.02
+    },
+    {
+      "id": 6,
+      "storageAccount": "01_alpha_",
+      "version": "Vault v2",
+      "AccessKey": "multiple",
+      "bucketCount": 1,
+      "size": 2.1
+    },
+    {
+      "id": 7,
+      "storageAccount": "apptest",
+      "version": "Vault v2",
+      "AccessKey": "",
+      "bucketCount": 1,
+      "size": 32
+    }
+  ]
+}

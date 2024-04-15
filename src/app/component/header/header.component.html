@@ -1,0 +1,11 @@
+<div>
+  <nav class="nav_wrapper">
+    <ul>
+      <li *ngFor="let item of menuList; let i = index">
+        <a [ngClass]="i === 2 ? 'active' : ''" [routerLink]="item.navLink">
+          {{ item.menuItem }}
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>

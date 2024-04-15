@@ -1,0 +1,74 @@
+<div class="storage-container">
+  <div class="header-wrapper">
+    <div>
+      <select class="select-box">
+        <option>Vault</option>
+      </select>
+    </div>
+    <div class="search-wrapper">
+      <div class="search-input">
+        <div class="search-ico">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+        <input
+          type="text"
+          [(ngModel)]="searchText"
+          (keydown)="searchData($event)"
+          placeholder="Search..."
+        />
+      </div>
+      <div class="button-wrapper">
+        <button class="primary_btn">
+          Billing Trends
+          <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
+        </button>
+        <button class="primary_btn">
+          Quantity Trend
+          <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
+        </button>
+        <button class="primary_btn">
+          Create Storage Account
+          <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <table class="table-container">
+    <thead>
+      <tr>
+        <th class="text-left">Storage Account</th>
+        <th>Version</th>
+        <th class="text-center">Access Key</th>
+        <th class="text-right">Bucket count</th>
+        <th class="text-right">Size(GB)</th>
+        <th class="text-center">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of storageDataList">
+        <td class="text-left">{{ item.storageAccount }}</td>
+        <td>{{ item.version }}</td>
+        <td class="text-center"><span *ngIf="item.AccessKey === 'multiple'">{{ item.AccessKey }}</span> 
+             <span class="progress-bar" *ngIf="item.AccessKey === ''"></span></td> 
+        <td class="text-right">{{ item.bucketCount }}</td>
+        <td class="text-right">{{ item.size }}</td>
+        <td class="text-center">
+          <span class="action-ico"
+            ><i class="fa fa-tag" aria-hidden="true"></i
+          ></span>
+          <span class="action-ico"
+            ><i class="fa fa-search" aria-hidden="true"></i
+          ></span>
+          <span class="action-ico"
+            ><i class="fa fa-key" aria-hidden="true"></i
+          ></span>
+          <span class="action-ico"
+            ><a (click)="delete(item.id)"
+              ><i class="fa fa-trash-o" aria-hidden="true"></i></a
+          ></span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
