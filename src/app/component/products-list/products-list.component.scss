@@ -1,0 +1,40 @@
+.card-details {
+  box-shadow: none;
+  padding: 24px;
+  border-radius: 16px;
+  background-color: white;
+  min-height: 324px;
+  width: 27%;
+  margin: 20px;
+}
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.right-panel {
+  background: white;
+  width: 350px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  border-radius: 10px;
+  border: 1px solid #eeeaea;
+}
+
+.panel-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-panel-wrapper{
+    padding: 20px;
+}
+.description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}

@@ -7,8 +7,8 @@
     },
     {
       "id": 2,
-      "menuItem": "Compute",
-      "navLink": ""
+      "menuItem": "Products",
+      "navLink": "products"
     },
     {
       "id": 3,
@@ -33,60 +33,367 @@
   ],
   "Storage": [
     {
-      "id": 1,
-      "storageAccount": "01_alpha_",
-      "version": "Vault v2",
-      "AccessKey": "multiple",
-      "bucketCount": 1,
-      "size": 0
+      "storageAccount": "User Phone data",
+      "version": "10.5.05",
+      "accessKey": "Multiple",
+      "bucketCount": 20000,
+      "size": 80,
+      "id": 2
     },
     {
-      "id": 2,
-      "storageAccount": "account002",
-      "version": "Vault v2",
-      "AccessKey": "",
-      "bucketCount": 0,
-      "size": 3.5
+      "storageAccount": "Samsung X 21",
+      "version": "09.19.20",
+      "accessKey": "multiple",
+      "bucketCount": 9000,
+      "size": 90,
+      "status": "Deactive",
+      "id": 3
     },
     {
-      "id": 3,
-      "storageAccount": "01_alpha_",
-      "version": "Vault v2",
-      "AccessKey": "multiple",
-      "bucketCount": 1,
-      "size": 2.1
+      "storageAccount": "Asus",
+      "version": "29",
+      "accessKey": "multiple",
+      "bucketCount": 200,
+      "size": 180,
+      "status": "Active",
+      "id": 4
     },
     {
-      "id": 4,
-      "storageAccount": "apptest",
-      "version": "Vault v2",
-      "AccessKey": "",
-      "bucketCount": 1,
-      "size": 32
+      "storageAccount": "Iphone 15",
+      "version": "13.04.91",
+      "accessKey": "abcd",
+      "bucketCount": 12,
+      "size": 22,
+      "status": "Active",
+      "id": 5
     },
     {
-      "id": 5,
-      "storageAccount": "Customer Test",
-      "version": "Vault v2",
-      "AccessKey": "",
-      "bucketCount": 1,
-      "size": 1.02
+      "storageAccount": "as",
+      "version": "12",
+      "accessKey": "1",
+      "bucketCount": 2,
+      "size": 1,
+      "id": 6
     },
     {
-      "id": 6,
-      "storageAccount": "01_alpha_",
-      "version": "Vault v2",
-      "AccessKey": "multiple",
-      "bucketCount": 1,
-      "size": 2.1
-    },
-    {
-      "id": 7,
-      "storageAccount": "apptest",
-      "version": "Vault v2",
-      "AccessKey": "",
-      "bucketCount": 1,
-      "size": 32
+      "storageAccount": "as,",
+      "version": ",as",
+      "accessKey": "sa",
+      "bucketCount": 12,
+      "size": 12,
+      "id": 7
     }
-  ]
+  ],
+  "footer": [
+    {
+      "data": {
+        "id": 1,
+        "attributes": {
+          "copyrights": "Copyright © 2023 Reliance Jio Infocomm Ltd. All rights reserved.",
+          "createdAt": "2023-02-13T06:53:20.244Z",
+          "updatedAt": "2023-06-06T07:23:04.178Z",
+          "publishedAt": "2023-02-13T10:10:09.950Z"
+        }
+      },
+      "meta": {}
+    }
+  ],
+  "products": {
+    "data": [
+      {
+        "id": 1,
+        "attributes": {
+          "name": "Automated outbound tialer",
+          "description": "Make large number of simultaneous calls with action to response functionality, enabling businesses to place concurrent automated outbound call.",
+          "order": 1,
+          "createdAt": "2023-01-25T05:38:15.128Z",
+          "updatedAt": "2023-06-06T07:23:02.404Z",
+          "publishedAt": "2023-01-25T05:38:43.322Z",
+          "image": {
+            "data": {
+              "id": 39,
+              "attributes": {
+                "name": "automated-outbound.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 48,
+                "height": 48,
+                "formats": null,
+                "hash": "automated_outbound_b5faee7459",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 0.93,
+                "url": "/uploads/automated_outbound_b5faee7459.svg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2023-03-13T13:13:30.162Z",
+                "updatedAt": "2023-03-13T13:13:30.162Z"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 2,
+        "attributes": {
+          "name": "Toll Free data​",
+          "description": "Establish a nationwide presence with an easy-to-remember number for a free customer service experience.",
+          "order": 2,
+          "createdAt": "2023-01-25T05:39:45.371Z",
+          "updatedAt": "2023-06-06T07:23:02.518Z",
+          "publishedAt": "2023-01-25T05:39:49.554Z",
+          "image": {
+            "data": {
+              "id": 36,
+              "attributes": {
+                "name": "toll-free-number.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 48,
+                "height": 48,
+                "formats": null,
+                "hash": "toll_free_number_bf9b3c7e85",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 0.93,
+                "url": "/uploads/toll_free_number_bf9b3c7e85.svg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2023-03-13T13:09:12.904Z",
+                "updatedAt": "2023-03-13T13:09:12.904Z"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 3,
+        "attributes": {
+          "name": "Conferencing (Group Talk)​",
+          "description": "Conference from anywhere, anytime having audio bridge on the Cloud with HD audio quality",
+          "order": 3,
+          "createdAt": "2023-01-25T05:40:06.488Z",
+          "updatedAt": "2023-06-06T07:23:02.605Z",
+          "publishedAt": "2023-01-25T05:40:08.598Z",
+          "image": {
+            "data": {
+              "id": 33,
+              "attributes": {
+                "name": "Conferencing.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 48,
+                "height": 48,
+                "formats": null,
+                "hash": "Conferencing_488d40d37b",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 1.29,
+                "url": "/uploads/Conferencing_488d40d37b.svg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2023-03-13T13:04:22.239Z",
+                "updatedAt": "2023-03-13T13:04:22.239Z"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 4,
+        "attributes": {
+          "name": "Click To Call",
+          "description": "A revolutionary way to connect with your customers & allow them reach you instantly with a single click.",
+          "order": 4,
+          "createdAt": "2023-01-25T05:40:26.309Z",
+          "updatedAt": "2023-06-06T07:23:02.684Z",
+          "publishedAt": "2023-01-25T05:40:27.297Z",
+          "image": {
+            "data": {
+              "id": 32,
+              "attributes": {
+                "name": "click-to-call.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 48,
+                "height": 48,
+                "formats": null,
+                "hash": "click_to_call_5c635e5e25",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 1.91,
+                "url": "/uploads/click_to_call_5c635e5e25.svg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2023-03-13T12:53:58.416Z",
+                "updatedAt": "2023-03-13T12:53:58.416Z"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 5,
+        "attributes": {
+          "name": "Missed Call",
+          "description": "Missed call solution aids businesses to call back their customers who gave missed calls on their business numbers.",
+          "order": 5,
+          "createdAt": "2023-01-25T05:40:43.068Z",
+          "updatedAt": "2023-06-06T07:23:02.761Z",
+          "publishedAt": "2023-01-25T05:40:44.297Z",
+          "image": {
+            "data": {
+              "id": 34,
+              "attributes": {
+                "name": "missed-call.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 48,
+                "height": 48,
+                "formats": null,
+                "hash": "missed_call_7dcd4c65fe",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 1.12,
+                "url": "/uploads/missed_call_7dcd4c65fe.svg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2023-03-13T13:06:22.300Z",
+                "updatedAt": "2023-03-13T13:06:22.300Z"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 6,
+        "attributes": {
+          "name": "Smart IVR",
+          "description": "Interactive Voice Response (IVR) is an automated telephony system which responds to the human voice and keyboard inputs with pre-recorded voice messages.",
+          "order": 6,
+          "createdAt": "2023-01-25T05:40:55.883Z",
+          "updatedAt": "2023-06-06T07:23:02.849Z",
+          "publishedAt": "2023-01-25T05:40:57.335Z",
+          "image": {
+            "data": {
+              "id": 35,
+              "attributes": {
+                "name": "smart-ivr.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 48,
+                "height": 48,
+                "formats": null,
+                "hash": "smart_ivr_50edf5a20a",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 3.16,
+                "url": "/uploads/smart_ivr_50edf5a20a.svg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2023-03-13T13:07:23.411Z",
+                "updatedAt": "2023-03-13T13:07:23.411Z"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 7,
+        "attributes": {
+          "name": "Virtual Number",
+          "description": "Virtual Number enhances brand visibility and guards privacy with a number of your choice, reinforcing that you’re a trustworthy business.",
+          "order": 7,
+          "createdAt": "2023-01-25T05:41:11.085Z",
+          "updatedAt": "2023-06-06T07:23:02.924Z",
+          "publishedAt": "2023-01-25T05:41:12.091Z",
+          "image": {
+            "data": {
+              "id": 38,
+              "attributes": {
+                "name": "virtual-number.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 48,
+                "height": 48,
+                "formats": null,
+                "hash": "virtual_number_db5f6f59d5",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 1.06,
+                "url": "/uploads/virtual_number_db5f6f59d5.svg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2023-03-13T13:12:23.431Z",
+                "updatedAt": "2023-03-13T13:12:23.431Z"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 8,
+        "attributes": {
+          "name": "Contact Center",
+          "description": "Communication, Collaboration & clarity are the three tools that lead to…",
+          "order": 8,
+          "createdAt": "2023-01-25T05:41:27.803Z",
+          "updatedAt": "2023-06-06T07:23:03.021Z",
+          "publishedAt": "2023-03-14T12:05:55.621Z",
+          "image": {
+            "data": {
+              "id": 43,
+              "attributes": {
+                "name": "contact-center.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 24,
+                "height": 24,
+                "formats": null,
+                "hash": "contact_center_aee308397e",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 0.81,
+                "url": "/uploads/contact_center_aee308397e.svg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2023-03-14T12:06:48.780Z",
+                "updatedAt": "2023-03-14T12:06:48.780Z"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": 9,
+        "attributes": {
+          "name": "Home",
+          "description": "JCT homepage",
+          "order": 9,
+          "createdAt": "2023-01-25T07:38:20.357Z",
+          "updatedAt": "2023-06-06T07:23:03.098Z",
+          "publishedAt": "2023-01-25T07:38:22.132Z",
+          "image": {
+            "data": null
+          }
+        }
+      }
+    ],
+    "meta": {
+      "pagination": {
+        "page": 1,
+        "pageSize": 25,
+        "pageCount": 1,
+        "total": 9
+      }
+    }
+  }
 }

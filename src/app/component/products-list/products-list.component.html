@@ -1,0 +1,31 @@
+<div>
+   <app-view-products></app-view-products>
+</div>
+<div class="card-wrapper">
+  <div class="card-details" *ngFor="let item of productsList">
+    <div>
+      <h2>{{ item.attributes.name | capitalised }}</h2>
+      <p class="description">{{ item.attributes.description | capitalised }}</p>
+      <button (click)="openPanel(item.id)">Know More</button>
+      <!-- <img [src]="item.attributes.image.data.attributes.url"> -->
+      <button (click)="delete(item.id)">Delete</button>
+      <p>{{ item?.attributes?.image?.data?.attributes?.name }}</p>
+    </div>
+  </div>
+</div>
+<div *ngFor="let item of nameList">
+  
+   <a (click)="showData(item)">{{ item }} </a> 
+
+</div>
+<div class="right-panel" *ngIf="isOpenPanel">
+  <div class="right-panel-wrapper">
+    <div class="panel-header">
+      <h2>{{ panelHeader }}</h2>
+      <a (click)="closePanel()"><span>Close</span></a>
+    </div>
+    <div>
+      <p>{{ panelDescripton }}</p>
+    </div>
+  </div>
+</div>

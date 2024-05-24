@@ -8,6 +8,7 @@ body{
     font-family: sans-serif;
     font-size: 14px;
     color: #514e4e;
+   background-color: #e0e0e0;
 }
 a{
     cursor: pointer;
@@ -24,3 +25,14 @@ button{
 .text-left{
     text-align: left;
 }
+.bold-text{
+    font-weight: bold;
+}
+.alert-text{
+     color:red;
+}
+.green-text{
+    color:green;
+}
+// html, body { height: 100%; }
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,136 @@
+<div>
+  <h2 mat-dialog-title *ngIf="!isNew">Create Dialog Account</h2>
+  <h2>{{ EditTitle }}</h2>
+  <form>
+   
+      <input type="file" (change)="myFile($event)"><br><br>
+ 
+  </form>
+
+  <div mat-dialog-content>
+    <div>
+      <div *ngIf="!isNew">
+        <form [formGroup]="storageForm">
+          <mat-form-field>
+            <mat-label>Storage Account</mat-label>
+            <input
+              type="text"
+              name="storageAccount"
+              value="storageAccount"
+              matInput
+              formControlName="storageAccount"
+            />
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Version</mat-label>
+            <input
+              type="text"
+              name="version"
+              value="version"
+              matInput
+              formControlName="version"
+            />
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Access Key</mat-label>
+            <input
+              type="text"
+              name="accessKey"
+              value="accessKey"
+              matInput
+              formControlName="accessKey"
+            />
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-label>Bucket Count</mat-label>
+            <input
+              type="number"
+              name="bucketCount"
+              value="bucketCount"
+              matInput
+              formControlName="bucketCount"
+            />
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Size(GB)</mat-label>
+            <input
+              type="number"
+              name="size"
+              value="size"
+              matInput
+              formControlName="size"
+            />
+          </mat-form-field>
+        </form>
+      </div>
+    </div>
+
+    <div *ngIf="isNew">
+      <form [formGroup]="editForm">
+        <mat-form-field>
+          <mat-label>Storage Account</mat-label>
+          <input
+            type="text"
+            name="storageAccount"
+            value="storageAccount"
+            matInput
+            formControlName="storageAccount"
+          />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Version</mat-label>
+          <input
+            type="text"
+            name="version"
+            value="version"
+            matInput
+            formControlName="version"
+          />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Access Key</mat-label>
+          <input
+            type="text"
+            name="accessKey"
+            value="accessKey"
+            matInput
+            formControlName="accessKey"
+          />
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Bucket Count</mat-label>
+          <input
+            type="number"
+            name="bucketCount"
+            value="bucketCount"
+            matInput
+            formControlName="bucketCount"
+          />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Size(GB) data</mat-label>
+          <input
+            type="number"
+            name="size"
+            value="size"
+            matInput
+            formControlName="size"
+          />
+        </mat-form-field>
+      </form>
+    </div>
+  </div>
+  <div mat-dialog-actions>
+    <mat-dialog-actions>
+      <!-- <button mat-button (click)="submit()">
+        Submit
+      </button> -->
+      <button mat-button (click)="submit()">
+        {{ isNew ? "Update" : "Submit" }}
+      </button>
+      <h3>{{ addedMessage }}</h3>
+    </mat-dialog-actions>
+  </div>
+</div>
